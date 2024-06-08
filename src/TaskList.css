@@ -1,0 +1,82 @@
+
+
+
+TaskList.css 
+
+ .ok{
+  font-family: Arial, sans-serif;
+  background-color: #df5d5d;
+  margin: 0;
+  padding: 0;
+  
+} 
+
+.ok div {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10px;
+  padding: 0px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ok input[type="text"] {
+  margin: 10px 0;
+  padding: 0px;
+  width: calc(100% - 16px);
+  box-sizing: border-box; 
+   border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ok button {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  width: calc(100% - 16px);
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+}
+
+.ok button:hover {
+  background-color: #5c81cd;
+}
+
+.ok button:nth-child(2) {
+  background-color: #356fdc;
+}
+
+.ok button:nth-child(2):hover {
+  background-color: #c82333;
+}
+
+.ok table {
+  
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0px;
+}
+
+.ok th, td {
+  padding: 0px;
+  border: 1px solid #b8ca73;
+  text-align: center;
+}
+
+.ok th {
+  background-color: #f2f2f2;
+}
+
+.ok tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ok tr:hover {
+  background-color: #7aacd7;
+} 

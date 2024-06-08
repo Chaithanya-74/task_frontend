@@ -1,0 +1,64 @@
+.Dashboard {
+    font-family: Arial, sans-serif;
+  }
+  
+  .overview {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .task-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .task-list th, .task-list td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .calendar {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .progress-charts {
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    margin-bottom: 20px;
+  }
+  
+  .recent-activities ul, .notifications ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-activities li, .notifications li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+
+

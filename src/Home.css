@@ -1,0 +1,97 @@
+/* 
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0; /* Change the background color as needed */
+/* }
+ .h1 {
+    font-size: 2rem;
+    color: #333; Change the text color as needed */
+/* }   */ 
+
+
+
+
+
+
+
+
+ /* Home.css */
+
+/* Style for the entire Home component */
+
+
+.ch{
+    /* background-image: url("c:/Users/Admin/OneDrive/Desktop/images (2).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;  */
+    /* background-color: #d965ab;   */
+
+
+} 
+.Home {
+
+    /* background-image: url("c:/Users/Admin/OneDrive/Desktop/images (2).jpg"); */
+    /* background-image: url("c:\Users\Admin\OneDrive\Desktop\images.png"); */
+    background-image: url("C:\Users\Admin\OneDrive\Desktop\frontend\taskapp\src\task.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    margin: 0;
+display: flex;
+flex-direction: column;
+
+      /* background-color: #e889da;   */
+    padding: 0px;
+    /* font-family: Arial, sans-serif, Helvetica; */
+} 
+
+/* Style for the heading */
+/* h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+} */
+
+/* Style for the container inside the Home component */
+.Home-container {
+    background-color: #e35fb5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style for the task items */
+.task-item {
+    background-color: #d965ab;
+    border: 1px solid #3cdfb4;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Style for the task name */
+.task-name {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Style for the task update */
+.task-update {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Style for the task description */
+.task-description {
+    color: #444;
+}
