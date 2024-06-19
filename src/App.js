@@ -6,7 +6,7 @@ import Register from './component/Register';
 import Header from './component/public/Header';
 import './App.css';
 import TaskList from './TaskList';
-import Dashboard from './Dashboard';
+// import Dashboard from './Dashboard';
 
 // import Dashboards from './Dashboards';
 // import main from './main'
@@ -23,7 +23,7 @@ function App() {
         <Route path="/login" element={<Login />} /> 
         <Route path="/register" element={<Register />} />
         <Route path="/tasklist" element={<TaskList />} />
-        <Route excat path="/dashboard" element={<Dashboard />} />
+        {/* <Route excat path="/dashboard" element={<Dashboard />} /> */}
       </Routes>
     </BrowserRouter>
   );

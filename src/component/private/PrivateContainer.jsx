@@ -16,3 +16,11 @@
 // }
 
 // export default PrivateContainer;
+// PrivateContainer.jsx
+import React from 'react';
+
+const PrivateContainer = ({ children }) => {
+  return <div className="private-container">{children}</div>;
+};
+
+export default PrivateContainer;

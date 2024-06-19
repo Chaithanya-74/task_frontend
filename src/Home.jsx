@@ -9,13 +9,13 @@ const Home = () => {
      useEffect(() => {
           fetch("http://localhost:8080/user/tasks")
                .then(res => {
-                    if (!res.ok) {
-                         throw new Error('Network response was not ok');
-                    }
-                    return res.json();
+                if (!res.ok) {
+                throw new Error('Network response was not ok');
+                }
+               return res.json();
                })
                .then(data => {
-                    setTasks(data);
+                setTasks(data);
                })
                .catch(error => {
                     console.error('Error fetching data:', error);
@@ -30,7 +30,7 @@ const Home = () => {
                <h1>Welcome to the Task App</h1>
                  <div className="Home">
                              {/* <a href=" ">Get Started</a> */}
-
+          
                 </div>
 
                <div>
@@ -41,7 +41,7 @@ const Home = () => {
                                    <span>Update: {task.update}</span>
                                    <span>Update: {task.update}</span>
                               </div> */}
-                              <p>{task.description}</p>
+                              {/* <p>{task.description}</p> */}
                          </div>
                     ))}
                </div>
@@ -50,5 +50,4 @@ const Home = () => {
           </>
      );
 }
-
 export default Home;

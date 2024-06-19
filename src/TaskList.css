@@ -5,7 +5,7 @@ TaskList.css
 
  .ok{
   font-family: Arial, sans-serif;
-  background-color: #df5d5d;
+  background-color: #cd2b74;
   margin: 0;
   padding: 0;
   
@@ -65,7 +65,7 @@ TaskList.css
 
 .ok th, td {
   padding: 0px;
-  border: 1px solid #b8ca73;
+  border: 1px solid #cddc75;
   text-align: center;
 }
 
